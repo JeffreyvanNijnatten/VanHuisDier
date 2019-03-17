@@ -1,0 +1,20 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+#logoheader {
+    max-width: -3px;
+}
+
+.logoheader {
+    max-width: 216px;
+}
+
+.bg-color {
+    background: #DFDF00;
+}
+
+.lownav {
+    height: 127px;
+}

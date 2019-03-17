@@ -20,7 +20,7 @@
     --gray-dark: #343a40;
     --primary: #007bff;
     --secondary: #6c757d;
-    --success: #28a745;
+    --success: #FDFD00;
     --info: #17a2b8;
     --warning: #ffc107;
     --danger: #dc3545;
@@ -68,7 +68,6 @@ section {
 }
 
 body {
-    background-image: url(images/BACKGROUND-FOOTPRINT.png);
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1rem;
@@ -6596,7 +6595,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-    background-color: #DFDF00 !important;
+    background-color: #343a40 !important;
 }
 
 a.bg-dark:hover,

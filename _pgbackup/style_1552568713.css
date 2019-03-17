@@ -1,0 +1,16 @@
+.header {
+    background-color: #DFDF00;
+}
+
+.lownav {
+    position: absolute;
+    bottem: 0px;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+body {
+    position: relative;
+    margin: 0;
+}
