@@ -1,0 +1,48 @@
+body {
+    position: relative;
+    margin: 0;
+    background-image: url('images/BACKGROUND-FOOTPRINT.png');
+}
+
+#logoheader {
+    max-width: -3px;
+}
+
+.logoheader {
+    max-width: 216px;
+}
+
+.bg-color {
+    background: #DFDF00;
+}
+
+.lownav {
+    background: #DFDF00;
+    max-height: 72px;
+}
+
+.iconscont {
+    min-width: 20%;
+}
+
+.icon {
+    max-width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    left: 0px;
+    display: block;
+}
+
+.lownavrow {
+    display: flex;
+}
+
+.maincontent {
+    margin-top: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
+    padding: 4px 2%;
+}

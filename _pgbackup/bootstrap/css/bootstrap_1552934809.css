@@ -221,6 +221,9 @@ figure {
 }
 
 img {
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
 }
 
 svg:not(:root) {
@@ -416,8 +419,7 @@ h4,
 .h4 {
     font-size: 1rem;
     font-family: Roboto;
-    margin-bottom: 4px;
-    margin-left: 8px;
+    margin-bottom: 0;
 }
 
 h5,
@@ -623,6 +625,8 @@ pre code {
 .row {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .no-gutters {

@@ -25,7 +25,6 @@ body {
 .iconscont {
     min-width: 20%;
     max-height: 48px;
-    color: #000000;
 }
 
 .icon {
@@ -79,10 +78,7 @@ body {
 .hastagsp {
     font-family: Questrial;
     font-size: 0.8rem;
-    margin-top: -6px;
-    margin-bottom: 0;
-    color: #a1a1a1;
-    margin-left: 8px;
+    margin-top: 0;
 }
 
 .contverloren {
@@ -102,7 +98,7 @@ body {
 .imagelost {
     object-fit: cover;
     width: 100%;
-    height: 80px;
+    height: 126px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
 }
@@ -110,7 +106,6 @@ body {
 .lostrow {
     display: flex;
     margin-right: 2px;
-    margin-top: 4px;
 }
 
 .lostcolumn {
@@ -123,12 +118,4 @@ body {
     margin-left: 3px;
     border-radius: 8px;
     border: 2px solid #efefef;
-}
-
-.locationicon {
-    margin-right: 2px;
-}
-
-.locationhas {
-    margin-top: -2px;
 }

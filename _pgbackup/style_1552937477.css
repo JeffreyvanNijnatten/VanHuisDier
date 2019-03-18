@@ -18,14 +18,12 @@ body {
 
 .lownav {
     background: #DFDF00;
-    max-height: 66px;
-    padding-top: 12px;
+    max-height: 74px;
 }
 
 .iconscont {
     min-width: 20%;
     max-height: 48px;
-    color: #000000;
 }
 
 .icon {
@@ -49,7 +47,7 @@ body {
     margin-right: 5%;
     background-color: #ffffff;
     box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
-    padding: 10px 2%;
+    padding: 10px 2% 4px;
 }
 
 .greybutton {
@@ -79,10 +77,7 @@ body {
 .hastagsp {
     font-family: Questrial;
     font-size: 0.8rem;
-    margin-top: -6px;
-    margin-bottom: 0;
-    color: #a1a1a1;
-    margin-left: 8px;
+    margin-top: 0;
 }
 
 .contverloren {
@@ -102,33 +97,8 @@ body {
 .imagelost {
     object-fit: cover;
     width: 100%;
-    height: 80px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
 }
 
 .lostrow {
     display: flex;
-    margin-right: 2px;
-    margin-top: 4px;
-}
-
-.lostcolumn {
-    margin-right: 6;
-    margin-left: 6;
-}
-
-.lostcolumn {
-    margin-right: 3px;
-    margin-left: 3px;
-    border-radius: 8px;
-    border: 2px solid #efefef;
-}
-
-.locationicon {
-    margin-right: 2px;
-}
-
-.locationhas {
-    margin-top: -2px;
 }
