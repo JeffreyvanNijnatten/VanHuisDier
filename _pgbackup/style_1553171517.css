@@ -181,17 +181,7 @@ h4small {
 .emergencytext {
     font-family: Questrial;
     font-size: 12px;
-    margin-top: 6px;
 }
 
 .emergencybuttoncol {
-}
-
-.emergencytextspacing {
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.miniicons {
-    margin-right: 8px;
 }

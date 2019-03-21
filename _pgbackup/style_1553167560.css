@@ -106,11 +106,6 @@ body {
 }
 
 .lostcolumn {
-    margin-right: 6;
-    margin-left: 6;
-}
-
-.lostcolumn {
     margin-right: 3px;
     margin-left: 3px;
     border-radius: 8px;
@@ -128,12 +123,10 @@ body {
 .gegevensverloren {
     font-family: Staatliches;
     color: #728884;
-    font-size: 14px;
 }
 
 .dataverloren {
     color: #728884;
-    font-size: 14px;
 }
 
 .imagelostmain {
@@ -143,55 +136,4 @@ body {
 }
 
 .imagelost {
-    object-fit: cover;
-    width: 100%;
-    height: 80px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-}
-
-h4small {
-    font-size: 4px;
-}
-
-.greybuttonsmall {
-    width: 100%;
-    background: #7B7B7B;
-    border-radius: 6px;
-    font-family: Staatliches;
-    color: #ffffff;
-    font-size: 7vw;
-    text-align: center;
-}
-
-.buttongreen {
-    background-color: #DFDF00;
-    border: 5px;
-    color: white;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    font-size: 18px;
-    text-decoration-color: white;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25%;
-    width: 100%;
-}
-
-.emergencytext {
-    font-family: Questrial;
-    font-size: 12px;
-    margin-top: 6px;
-}
-
-.emergencybuttoncol {
-}
-
-.emergencytextspacing {
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.miniicons {
-    margin-right: 8px;
 }

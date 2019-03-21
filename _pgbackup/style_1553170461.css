@@ -163,35 +163,3 @@ h4small {
     font-size: 7vw;
     text-align: center;
 }
-
-.buttongreen {
-    background-color: #DFDF00;
-    border: 5px;
-    color: white;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    font-size: 18px;
-    text-decoration-color: white;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25%;
-    width: 100%;
-}
-
-.emergencytext {
-    font-family: Questrial;
-    font-size: 12px;
-    margin-top: 6px;
-}
-
-.emergencybuttoncol {
-}
-
-.emergencytextspacing {
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-
-.miniicons {
-    margin-right: 8px;
-}
