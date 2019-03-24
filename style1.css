@@ -1,0 +1,234 @@
+body {
+    position: relative;
+    margin: 0;
+    background-image: url('images/BACKGROUND-FOOTPRINT.png');
+}
+
+#logoheader {
+    max-width: -3px;
+}
+
+h1 {
+	font-family: 'Staatliches', cursive;
+	font-size: 20px; 
+	color:#707070;
+}
+
+h2 {
+	font-family: 'Staatliches', cursive;
+	font-size: 16px; 
+	color:#FFFFFF;
+	margin-top: 5%; 
+	margin-bottom: auto; 	
+}
+h5 {
+	font-family: 'Staatliches', cursive;
+	font-size: 14px; 
+	color:#707070;
+}
+
+h6 {
+	font-family: 'Questrial', sans-serif;
+	font-size: 12px;
+	color:#707070;
+}
+
+.check1 {
+	width: 12px; 
+	height: auto; 
+	max-width: 20px; 
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 15%; 
+	margin-bottom: auto; 
+	margin-left: 2%; 
+	margin-right: auto; 
+}
+
+.logoheader {
+    max-width: 216px;
+}
+
+.bg-color {
+    background: #DFDF00;
+}
+
+.lownav {
+    background: #DFDF00;
+    max-height: 72px;
+}
+
+.iconscont {
+    min-width: 20%;
+}
+
+.icon {
+    max-width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    left: 0px;
+    display: block;
+}
+
+.form-text {
+	display: flex; 
+	justify-content: center; 
+}
+
+.button {
+ display: flex;
+	justify-content: space-around;
+
+}
+.button1 {
+ 	 background-color: #DFDF00;
+ 	 border: 5px;
+ 	 color: white;
+ 	 padding: 50;
+ 	 text-align: center;
+ 	 display: inline-block;
+	font-family: 'Staatliches', cursive;
+  	font-size: 18px;
+	text-decoration-color: white;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 30%;
+	margin-right: 10%; 
+	border-radius: 10%; 
+	
+}
+.button2 {
+ 	 background-color: #707070;
+	color: white;
+ 	 border: 5px;
+ 	 padding: 10;
+ 	 text-align: center;
+	font-family: 'Staatliches', cursive;
+  	font-size: 18px;
+	text-decoration-color: white;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10%; 
+	margin-right: 30%; 
+	border-radius: 10%; 
+}
+
+
+.lownavrow {
+    display: flex;
+}
+
+.maincontent {
+    margin-top: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+	margin-bottom: 55px; 
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
+    padding: 4px 2%;	
+	
+}
+
+.align-content-row {
+	max-width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 10px; 
+	margin-bottom: 10px; 
+    display: flex;
+	justify-content: space-between;
+
+	 
+}
+
+.pagination {
+  color: #707070;
+	display: flex; 
+	justify-content: center; 
+  width: 5px; 
+	height: auto; 
+	margin-top: 2px; 
+	margin-bottom: 
+
+}
+
+.col-10 {
+	align-content: center;
+	width: auto;
+	height: auto; 
+	margin: 5%; 
+	
+}
+
+.dot {
+	width: 5px; 
+	height: auto; 
+	background-color: #707070; 
+	border-radius: 50%; 
+	display: flex;
+	justify-content: center;
+	margin-top: 5px; 
+	margin-bottom: 10px; 
+
+}
+.slider {
+	height: auto;
+	width: 100%; 
+	margin: 5px; 
+	display: flex;
+	justify-content: center;
+	
+}
+.slides {
+  display: flex;
+  overflow-x: auto;
+  
+  border-radius: 5px;
+  
+  scroll-behavior: smooth;
+  
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  flex-shrink: 0;
+	margin-top: 20px; 
+	margin-bottom: 10px; 
+	margin-right: 5px; 
+	margin-left: 5px; 
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slides > div:target {
+  transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+
+
