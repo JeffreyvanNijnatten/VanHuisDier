@@ -19,7 +19,7 @@ body {
 .lownav {
     background: #DFDF00;
     max-height: 66px;
-    padding: 0;
+    padding-top: 12px;
 }
 
 .iconscont {
@@ -29,12 +29,12 @@ body {
 }
 
 .icon {
-    max-width: 60;
+    max-width: 30px;
     margin-left: auto;
     margin-right: auto;
+    width: 60px;
     left: 0px;
     display: block;
-    max-height: 30px;
 }
 
 .lownavrow {
@@ -53,7 +53,7 @@ body {
 }
 
 .greybutton {
-    width: 50%;
+    width: 100%;
     background: #7B7B7B;
     border-radius: 6px;
     font-family: Staatliches;
@@ -64,11 +64,7 @@ body {
 
 .navtext {
     text-align: center;
-    font-size: 0.7rem;
-    margin-bottom: 0;
-    font-family: Questrial;
-    padding-left: 0;
-    padding-right: 0;
+    font-size: 13px;
 }
 
 .emptyspace {
@@ -198,57 +194,4 @@ h4small {
 
 .miniicons {
     margin-right: 8px;
-}
-
-.defaulttext {
-    font-family: Questrial;
-    font-size: 12px;
-    margin-top: 6px;
-}
-
-.buttongreen2 {
-    background-color: #DFDF00;
-    border: 5px;
-    color: white;
-    text-align: center;
-    font-family: 'Staatliches', cursive;
-    font-size: 18px;
-    text-decoration-color: white;
-    display: flex;
-    justify-content: space-around;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.navbutton:active {
-    border-radius: 0;
-    border-style: none;
-    background: #e2e6ea;
-}
-
-.navbutton {
-    border-radius: 0;
-    border-style: none;
-    background: #DFDF00;
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.navlink {
-    width: 100%;
-}
-
-.navcolumn {
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-}
-
-.navcolumn {
-    display: flex;
-    margin-left: 0;
-    margin-right: 0;
-    width: 100%;
 }

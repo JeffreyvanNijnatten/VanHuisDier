@@ -12,54 +12,43 @@
         <!-- Custom styles for this template -->
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Staatliches">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Questrial">
     </head>
     <body>
         <!-- Bootstrap core JavaScript
     ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <nav class="navbar fixed-bottom navbar-light bg-light lownav">
-            <div class="row" style="width: 100%;">
-                <div class="navcolumn">
-                    <a href="" class="navlink">
-                        <button type="button" class="btn btn-light navbutton">
-                            <img src="images/icons/PLAATSEN-ICON.png" class="icon">
-                            <p class="navtext">PLAATSEN</p>
-                        </button>
-                    </a>
-                </div>
-                <div class="navcolumn">
-                    <a href="verloren.html" class="navlink">
-                        <button type="button" class="btn btn-light navbutton">
+            <div class="col-md-12 order-md-11">
+                <div class="row lownavrow">
+                    <div class="container iconscont">
+                        <img src="images/icons/PLAATSEN-ICON.png" class="icon"/>
+                        <p class="navtext">PLAATSEN</p>
+                    </div>
+                    <a href="verloren.html" class="iconscont">
+                        <div class="container iconscont">
                             <img src="images/icons/VERLOREN-ICON.png" class="icon">
                             <p class="navtext">VERLOREN</p>
-                        </button>
+                        </div>
                     </a>
-                </div>
-                <div class="navcolumn">
-                    <a href="index.html" class="navlink">
-                        <button type="button" class="btn btn-light navbutton active">
-                            <img src="images/icons/HOME-ICON.png" class="icon">
+                    <a href="index.html" class="iconscont">
+                        <div class="container iconscont">
+                            <img src="images/icons/HOME-ICON.png" class="icon"/>
                             <p class="navtext">HOME</p>
-                        </button>
+                        </div>
                     </a>
-                </div>
-                <div class="navcolumn">
-                    <a href="gevonden.html" class="navlink">
-                        <button type="button" class="btn btn-light navbutton">
-                            <img src="images/icons/GEVONDEN-ICON.png" class="icon">
+                    <a href="gevonden.html">
+                        <div class="container iconscont">
+                            <img src="images/icons/GEVONDEN-ICON.png" class="icon" style="max-width: 22px;"/>
                             <p class="navtext">GEVONDEN</p>
-                        </button>
+                        </div>
                     </a>
-                </div>
-                <div class="navcolumn">
-                    <a href="emergency.html" class="navlink">
-                        <button type="button" class="btn btn-light navbutton">
-                            <img src="images/icons/IN%20NOOD-ICON.png" class="icon">
+                    <a href="">
+                        <div class="container iconscont">
+                            <img src="images/icons/IN%20NOOD-ICON.png" class="icon" style="max-width: 26px;"/>
                             <p class="navtext">IN NOOD</p>
-                        </button>
+                        </div>
                     </a>
-                </div>
+                </div>                 
             </div>
         </nav>
         <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
@@ -91,13 +80,10 @@
             <h1>Wat moet ik doen?</h1>
             <img src="images/content/teckel.png" class="welcomeimage"/>
             <h2>Ik heb een dier gevonden of ik ben mijn dier verloren.</h2>
-            <p>Dieren leiden soms hun eigen leven, waarbij ze zich niet altijd evenveel aantrekken van het feit dat wij hen als ons eigendom beschouwen. Dieren raken daarom ook dagelijks vermist. Hierbij een aantal tips om een zoektocht naar een dier te doen slagen of wat u zou moeten doen bij het vinden van een verloren dier.<a href="info.html"><p class="readmore">Lees meer...</p></a></p>
+            <p>Dieren leiden soms hun eigen leven, waarbij ze zich niet altijd evenveel aantrekken van het feit dat wij hen als ons eigendom beschouwen. Dieren raken daarom ook dagelijks vermist. Hierbij een aantal tips om een zoektocht naar een dier te doen slagen of wat u zou moeten doen bij het vinden van een verloren dier.<p class="readmore">Lees meer...</p></p>
         </div>
         <div style="margin-right: 5%; margin-left: 5%; margin-top: 22px;">
-            <div class="row" style="width: 100%; display: flex;">
-                <button type="button" class="btn btn-light greybutton">VERLOREN</button>
-                <button type="button" class="btn btn-light greybutton" style="margin-left: 2%;">GevonDEN</button>
-            </div>
+            <button type="button" class="btn btn-light greybutton">VERLOREN/GEVONDEN</button>
         </div>
         <div class="container pg-empty-placeholder emptyspace"></div>
         <script src="assets/js/jquery.min.js"></script>
