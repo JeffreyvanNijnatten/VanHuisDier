@@ -175,13 +175,15 @@ sup {
 }
 
 a {
-    color: #000;
+    color: #007bff;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
+    color: #0056b3;
+    text-decoration: underline;
 }
 
 a:not([href]):not([tabindex]) {
@@ -425,9 +427,7 @@ h5,
 
 h6,
 .h6 {
-    font-size: 1.3rem;
-    color: #DFDF00;
-    font-family: Staatliches;
+    font-size: 1rem;
 }
 
 .lead {
