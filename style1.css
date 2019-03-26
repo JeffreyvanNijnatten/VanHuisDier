@@ -34,17 +34,28 @@ h6 {
 }
 
 .check1 {
-	width: 12px; 
+	width: 15px; 
 	height: auto; 
 	max-width: 20px; 
 	display: flex;
 	justify-content: flex-end;
-	margin-top: 15%; 
+	margin-top: 12%; 
 	margin-bottom: auto; 
 	margin-left: 2%; 
 	margin-right: auto; 
 }
 
+.check2 {
+	width: 12px; 
+	height: auto; 
+	max-width: 20px; 
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 12%; 
+	margin-bottom: auto; 
+	margin-left: 2%; 
+	margin-right: auto; 
+}
 .logoheader {
     max-width: 216px;
 }
@@ -84,6 +95,7 @@ h6 {
 .button1 {
  	 background-color: #DFDF00;
  	 border: 5px;
+	padding: 2px 20px;
  	 color: white;
  	 text-align: center;
  	 display: inline-block;
@@ -101,6 +113,7 @@ h6 {
  	 background-color: #707070;
 	color: white;
  	 border: 5px;
+	padding: 2px 20px;
  	 text-align: center;
 	font-family: 'Staatliches', cursive;
   	font-size: 18px;
@@ -112,6 +125,38 @@ h6 {
 	border-radius: 10%; 
 }
 
+.button5 {
+ 	 background-color: #707070;
+ 	 border: 5px;
+	padding: 2px 20px;
+ 	 color: white;
+ 	 text-align: center;
+ 	 display: inline-block;
+	font-family: 'Staatliches', cursive;
+  	font-size: 18px;
+	text-decoration-color: white;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 30%;
+	margin-right: 10%; 
+	border-radius: 10%; 
+	
+}
+.button6 {
+ 	 background-color: #DFDF00;
+	color: white;
+ 	 border: 5px;
+	padding: 3px 15px;
+ 	 text-align: center;
+	font-family: 'Staatliches', cursive;
+  	font-size: 18px;
+	text-decoration-color: white;
+	display: flex;
+	justify-content: space-around;
+	margin-left: 10%; 
+	margin-right: 30%; 
+	border-radius: 10%; 
+}
 
 .lownavrow {
     display: flex;
