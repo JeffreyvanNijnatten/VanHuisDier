@@ -1,18 +1,4 @@
-@font-face {
-    font-family: 'Questrial';
-    src: url('fonts/questrial-regular-webfont.woff2') format('woff2'),
-         url('fonts/questrial-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Staatliches';
-    src: url('fonts/staatliches-regular-webfont.woff2') format('woff2'),
-         url('fonts/staatliches-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css?family=Questrial|Roboto|Staatliches');
 
 body {
     position: relative;
