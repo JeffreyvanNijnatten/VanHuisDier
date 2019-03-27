@@ -69,7 +69,6 @@ body {
 }
 
 .greybutton {
-    width: 50%;
     background: #7B7B7B;
     border-radius: 6px;
     font-family: Staatliches;
@@ -205,6 +204,7 @@ h4small {
 }
 
 .emergencybuttoncol {
+	
 }
 
 .emergencytextspacing {
@@ -267,4 +267,57 @@ h4small {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
+}
+
+.maincontent1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+	margin-bottom: 10%; 
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 2%;
+	
+}
+
+.Poot {
+	max-width: 350px; 
+	min-width: 50px; 
+	width: 100%; 
+	height: auto; 	
+	 display: block;
+	margin-top: 15px; 
+	margin-bottom: 15px; 
+  margin-left: auto;
+  margin-right: auto;
+	display: flex;
+	justify-content: center; 
+ 
+}
+
+.VerzoekVerzonden {
+	display: flex; 
+	justify-content: center;
+}
+
+.button1 {
+	heigth: 100px; 
+	width: 100px; 
+ 	background-color: #DFDF00;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 50%;
+	
+}
+.check1 {
+	width: 20px; 
+	height: 25px; 
+	max-width: 20px; 
+	margin: 35px;
+}
+
+h3 {
+	font-family: 'Staatliches', cursive;
+	font-size: 28px; 
+	color:#707070;
 }
