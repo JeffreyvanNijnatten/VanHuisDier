@@ -408,13 +408,15 @@ pic {
     border: 15px;
     text-align: center;
     font-family: 'Staatliches', cursive;
-    font-size: 30px;
+    font-size: 18px;
     text-decoration-color: white;
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     border-radius: 4px;
     padding: 5px;
-    width: 100%;
 }
 
 .button3 {
@@ -490,15 +492,4 @@ pic {
     -webkit-scroll-snap-type: mandatory;
     -ms-scroll-snap-type: mandatory;
     scroll-snap-type: mandatory;
-}
-
-h5 {
-    font-family: 'Staatliches', cursive;
-    font-size: 18px;
-    color: #707070;
-}
-
-.contactinfo {
-    font-family: Roboto;
-    font-size: 13px;
 }

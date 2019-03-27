@@ -31,7 +31,7 @@
                 </div>
                 <div class="navcolumn">
                     <a href="verloren.html" class="navlink">
-                        <button type="button" class="btn btn-light navbutton">
+                        <button type="button" class="btn btn-light navbutton active">
                             <img src="images/icons/VERLOREN-ICON.png" class="icon">
                             <p class="navtext">VERMIST</p>
                         </button>
@@ -47,7 +47,7 @@
                 </div>
                 <div class="navcolumn">
                     <a href="gevonden.html" class="navlink">
-                        <button type="button" class="btn btn-light navbutton active">
+                        <button type="button" class="btn btn-light navbutton">
                             <img src="images/icons/GEVONDEN-ICON.png" class="icon">
                             <p class="navtext">GEVONDEN</p>
                         </button>
@@ -67,12 +67,12 @@
             <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
                 <div class="col-md-4 headcolumn col-1">
                     <a href="verloren.html">
-                        <!--<img src="images/icons/Path%2010.png"/>-->
+                        <!--<img src="images/icons/Path%2010.png">-->
                     </a>                     
                 </div>
                 <div class="col-md-4 headcolumn col-9">
                     <a class="navbar-brand" href="#" style="position: relative; align-content: center; margin-left: auto; margin-right: auto; padding-left: 23px;">
-                        <img src="images/LOGO_TEXT_WIT1.png" class="logoheader"/>
+                        <img src="images/LOGO_TEXT_WIT1.png" class="logoheader">
                     </a>                     
                 </div>
                 <div class="col-md-4 headcolumn col-2">
@@ -88,14 +88,14 @@
                     <form name="George">
                         <p><select name="example" size="1" onchange="go()" style="width: 100%;">
                                 <option value="">Kies een diersoort</option>
-                                <option value="">Hond (3)</option>
-                                <option value="">Kat (3)</option>
-                                <option value="">Vogels (2)</option>
-                                <option value="">(Klein) vee (1)</option>
-                                <option value="">Exotische dieren (1)</option>
+                                <option value="verloren-fl-hond.html">Hond (3)</option>
+                                <option value="verloren-fl-kat.html">Kat (2)</option>
+                                <option value="verloren-fl-vogels.html">Vogels (2)</option>
+                                <option value="verloren-fl-vee.html">(Klein) vee (2)</option>
+                                <option value="verloren-fl-knaagdier.html">Knaagdier (1)</option>
                             </select></p>
-                        <script type="text/javascript">
-
+                        <script>
+<!--
 function go(){
 location=
 document.George.example.
@@ -107,136 +107,88 @@ options[document.George.example.selectedIndex].value
                 </div>
             </nav>
         </div>         
-        <!-- <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
-            <a class="navbar-brand" href="" style="position: relative; align-content: center; margin-left: auto; margin-right: auto; padding-left: 38px;">
-                <img src="images/LOGO_TEXT_WIT1.png" class="logoheader"/>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                    <li class="nav-item active">
-                        <p class="filterhead">
-                        Filter Opties </p>
-                        <p style="font-family: Staatliches; color: #ffffff; margin-bottom: 0; font-size: 17px;">
-                       Diersoort  </p>
-                        <form name="George">
-                            <p><select name="example" size="1" onchange="go()" style="width: 100%;">
-                                    <option value="">Kies een diersoort</option>
-                                    <option value="emergency.html">Hond (3)</option>
-                                    <option value="http://www.geocities.com">Kat (3)</option>
-                                    <option value="http://www.geocities.com">Vogels (2)</option>
-                                    <option value="http://www.geocities.com">(Klein) vee (1)</option>
-                                    <option value="http://www.geocities.com">Exotische dieren (1)</option>
-                                </select></p>
-                            <script type="text/javascript">
-<!--
-function go(){
-location=
-document.George.example.
-options[document.George.example.selectedIndex].value
-}
-
-</script>
-                        </form>
-                        <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search"/>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>-->
         <div class="container maincontent">
-            <h3>Gevonden dieren</h3>
+            <h3>Verloren dieren</h3>
             <div class="container contverloren">
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <a href="gevondendieren/00001.html">
-                            <img src="images/content/lostpets/763.jpeg" class="imagelost">
+                        <a href="verlorendieren/00001.html">
+                            <img src="images/content/lostpets/ab1aab7e7bf265edffcb80255ce1434c.jpg" class="imagelost">
                         </a>
-                        <h4>Poes</h4> 
+                        <h4>Rex</h4> 
                         <p class="hastagsp">14-03-2019</p>
-                        <p class="hastagsp">Oranje</p>
+                        <p class="hastagsp">Hond</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Roosendaal</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/Unknown.jpeg" class="imagelost">
-                        <h4>Hond</h4> 
+                        <img src="images/content/lostpets/Minoes.jpg" class="imagelost">
+                        <h4>Minoes</h4> 
                         <p class="hastagsp">12-03-2019</p>
-                        <p class="hastagsp">Beige</p>
+                        <p class="hastagsp">Poes</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Etten-Leur</p>
                     </div>
                 </div>
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/images.jpeg" class="imagelost">
-                        <h4>Vogel</h4> 
+                        <img src="images/content/lostpets/SAARTJEV1.jpg" class="imagelost">
+                        <h4>Saartje</h4> 
                         <p class="hastagsp">09-03-2019</p>
-                        <p class="hastagsp">Bruin-Beige</p>
+                        <p class="hastagsp">Vogel</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Prinsenbeek</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/Unknown-1.jpeg" class="imagelost">
-                        <h4>Krokodil</h4> 
+                        <img src="images/content/lostpets/Bobby.jpg" class="imagelost">
+                        <h4>Bobby</h4> 
                         <p class="hastagsp">04-03-2018</p>
-                        <p class="hastagsp">Donkergroen</p>
+                        <p class="hastagsp">Hond</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Breda</p>
                     </div>
                 </div>
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/KATNIEUW.jpg" class="imagelost">
-                        <h4>Poes</h4> 
+                        <img src="images/content/lostpets/Snuffie.jpg" class="imagelost">
+                        <h4>Snuffie</h4> 
                         <p class="hastagsp">01-03-2019</p>
-                        <p class="hastagsp">Oranje</p>
+                        <p class="hastagsp">Konijn</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Ulvenhout</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/images%20kopie%202.jpeg" class="imagelost">
-                        <h4>Hond</h4> 
+                        <img src="images/content/lostpets/763%20kopie.jpeg" class="imagelost">
+                        <h4>Keesje</h4> 
                         <p class="hastagsp">28-02-2019</p>
-                        <p class="hastagsp">Oranje</p>
+                        <p class="hastagsp">Geit</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Bavel</p>
                     </div>
                 </div>
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/images%20kopie.jpeg" class="imagelost">
-                        <h4>Poes</h4> 
+                        <img src="images/content/lostpets/Noah.jpg" class="imagelost">
+                        <h4>Noah</h4> 
                         <p class="hastagsp">27-02-2019</p>
-                        <p class="hastagsp">Bruin</p>
+                        <p class="hastagsp">Poes</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Prinsenbeek</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/Keesje.jpg" class="imagelost">
-                        <h4>Geit</h4> 
+                        <img src="images/content/lostpets/Oliver.jpg" class="imagelost">
+                        <h4>Oliver</h4> 
                         <p class="hastagsp">27-02-2019</p>
-                        <p class="hastagsp">Wit</p>
+                        <p class="hastagsp">Hond</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Breda</p>
                     </div>
                 </div>
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/images-1.jpeg" class="imagelost">
-                        <h4>Hond</h4> 
+                        <img src="images/content/lostpets/2d1ed1dd-b047-4259-82f9-2cb0569acb16.jpg&h=500&w=880&v=1524735787.jpeg" class="imagelost">
+                        <h4>Guus</h4> 
                         <p class="hastagsp">17-02-2019</p>
-                        <p class="hastagsp">Oranje-Beige</p>
+                        <p class="hastagsp">Vogel</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Rijen</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/keyb.jpg" class="imagelost">
-                        <h4>Vogel</h4> 
+                        <img src="images/content/lostpets/zwijntje.jpg" class="imagelost">
+                        <h4>Lola</h4> 
                         <p class="hastagsp">16-02-2019</p>
-                        <p class="hastagsp">Blauw-Bruin</p>
+                        <p class="hastagsp">Varken</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Etten-Leur</p>
                     </div>
                 </div>
