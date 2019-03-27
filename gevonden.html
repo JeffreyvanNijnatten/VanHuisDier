@@ -33,7 +33,7 @@
                     <a href="verloren.html" class="navlink">
                         <button type="button" class="btn btn-light navbutton">
                             <img src="images/icons/VERLOREN-ICON.png" class="icon">
-                            <p class="navtext">VERLOREN</p>
+                            <p class="navtext">VERMIST</p>
                         </button>
                     </a>
                 </div>
@@ -63,7 +63,51 @@
                 </div>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
+        <div class="row headnavrow">
+            <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
+                <div class="col-md-4 headcolumn col-1">
+                    <a href="verloren.html">
+                        <!--<img src="images/icons/Path%2010.png"/>-->
+                    </a>                     
+                </div>
+                <div class="col-md-4 headcolumn col-9">
+                    <a class="navbar-brand" href="#" style="position: relative; align-content: center; margin-left: auto; margin-right: auto; padding-left: 23px;">
+                        <img src="images/LOGO_TEXT_WIT1.png" class="logoheader"/>
+                    </a>                     
+                </div>
+                <div class="col-md-4 headcolumn col-2">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>                     
+                </div>
+                <div class="collapse navbar-collapse filterdiv" id="navbarTogglerDemo02">
+                    <p class="filterhead">
+                        Filter Opties </p>
+                    <p style="font-family: Staatliches; color: #728884; margin-bottom: 0; font-size: 17px;">
+                       Diersoort  </p>
+                    <form name="George">
+                        <p><select name="example" size="1" onchange="go()" style="width: 100%;">
+                                <option value="">Kies een diersoort</option>
+                                <option value="emergency.html">Hond (3)</option>
+                                <option value="http://www.geocities.com">Kat (3)</option>
+                                <option value="http://www.geocities.com">Vogels (2)</option>
+                                <option value="http://www.geocities.com">(Klein) vee (1)</option>
+                                <option value="http://www.geocities.com">Exotische dieren (1)</option>
+                            </select></p>
+                        <script type="text/javascript">
+
+function go(){
+location=
+document.George.example.
+options[document.George.example.selectedIndex].value
+}
+//-->
+</script>
+                    </form>
+                </div>
+            </nav>
+        </div>         
+        <!-- <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
             <a class="navbar-brand" href="" style="position: relative; align-content: center; margin-left: auto; margin-right: auto; padding-left: 38px;">
                 <img src="images/LOGO_TEXT_WIT1.png" class="logoheader"/>
             </a>
@@ -93,7 +137,7 @@ location=
 document.George.example.
 options[document.George.example.selectedIndex].value
 }
-//-->
+
 </script>
                         </form>
                         <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -108,9 +152,9 @@ options[document.George.example.selectedIndex].value
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search"/>
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>-->
+                </form>
             </div>
-        </nav>
+        </nav>-->
         <div class="container maincontent">
             <h3>Gevonden dieren</h3>
             <div class="container contverloren">

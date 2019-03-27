@@ -268,8 +268,7 @@ textarea {
 
 button,
 input {
-    /*overflow: visible
- */
+    overflow: visible;
 }
 
 button,
