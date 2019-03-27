@@ -180,19 +180,19 @@ h6 {
 
 select {
     min-width: 200px;
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: #EFEFEF;
-    border: 2px solid #707070;
+    border-color: #707070;
 }
 
 input {
     min-width: 200px;
-    width: 100%;
+    width: auto;
     height: auto;
     background-color: #EFEFEF;
+    border-color: #707070;
     color: #707070;
-    border: 2px solid #707070;
 }
 
 .Toevoegenfoto {

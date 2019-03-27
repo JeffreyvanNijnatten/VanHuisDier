@@ -85,7 +85,6 @@ body {
     font-family: Staatliches;
     color: #ffffff;
     font-size: 9vw;
-    width: 100%;
     text-align: center;
 }
 
@@ -360,8 +359,4 @@ h3 {
     z-index: 214;
     padding-left: 5%;
     padding-right: 5%;
-}
-
-.lostcolumnleeg {
-    border: none;
 }
