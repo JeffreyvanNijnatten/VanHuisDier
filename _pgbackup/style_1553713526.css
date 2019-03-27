@@ -292,8 +292,6 @@ h4small {
 }
 
 .Poot {
-    padding-left: 5%;
-    padding-right: 5%;
     max-width: 250px;
     min-width: 50px;
     width: 100%;
@@ -318,15 +316,13 @@ h4small {
     background-color: #DFDF00;
     display: flex;
     justify-content: space-around;
-    border-top: -106px none #000000;
-    border-radius: 100%;
-    border-style: none;
+    border-radius: 50%;
 }
 
 .check1 {
     width: 20px;
     height: 25px;
-    max-width: 20;
+    max-width: 20px;
     margin: 35px;
 }
 

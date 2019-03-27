@@ -90,23 +90,23 @@
                     <h1> Dier opgeven </h1> 
                 </div>                 
                 <div class="button"> 
-                    <a href="Missing2.html"> 
-                        <button class="button5" type="button">Vermist </button>                         
-                    </a>                     
-                    <button class="button6" type="button">Gevonden 
-                        <img class="check2" src="images/icons/CHECK ONLY-ICON.png">
+                    <button class="button1" type="button">Vermist 
+                        <img class="check1" src="images/icons/CHECK ONLY-ICON.png"> 
                     </button>                     
+                    <a href="Found1.html"> 
+                        <button class="button2" type="button">Gevonden</button>                         
+                    </a>                     
                 </div>                 
                 <div class="slider"> 
                     <div class="slides"> 
                         <div id="slide-1"> 
                             <div class="col-10"> 
-                                <h5>Gevonden op datum*</h5> 
-                                <h6> <input type="date" name="datum"> </h6> 
-                                <h5>Plaats waar gevonden*</h5> 
-                                <h6><input type="text" name="plaats"> </h6> 
-                                <h5>Straat waar gevonden</h5> 
-                                <h6><input type="text" name="straat"> </h6> 
+                                <h5>Naam*</h5> 
+                                <h6> <input type="text" name="Naam"> </h6> 
+                                <h5>Woonplaats*</h5> 
+                                <h6><input type="text" name="Woonplaats"> </h6> 
+                                <h5>Verloren op datum</h5> 
+                                <h6><input type="text" name="Datum"> </h6> 
                                 <h5>Diersoort*</h5> 
                                 <h6> <select name="Diersoort"> 
                                         <option value="hond">Hond</option>                                         
@@ -122,28 +122,24 @@
                                         <option value="overig">Overig</option>                                         
                                     </select> </h6> 
                                 <h5>Ras</h5> 
-                                <h6> <input type="text" name="Ras"> </h6> 
-                                <h5>Kleur*</h5> 
-                                <h6> <select name="Kleur"> 
-                                        <option value="wit">Wit</option>                                         
-                                        <option value="bruin">Bruin</option>                                         
-                                        <option value="zwart">Zwart</option>                                         
-                                        <option value="creme">Creme</option>                                         
-                                        <option value="grijs">Grijs</option>                                         
-                                        <option value="geel">Geel</option>                                         
-                                        <option value="oranje">Oranje</option>                                         
-                                        <option value="roze">Roze</option>                                         
-                                        <option value="groen">Groen</option>                                         
-                                        <option value="rood">Rood</option>                                         
-                                        <option value="blauw">Blauw</option>                                         
-                                        <option value="overig">Overig</option>                                         
-                                    </select> </h6> 
-                                <h5>Geslacht </h5> 
-                                <h6> <select name="Geslacht"> 
-                                        <option value="mannelijk">Mannelijk</option>                                         
-                                        <option value="vrouwelijk">Vrouwelijk</option>                                         
-                                        <option value="onbekend">Onbekend</option>                                         
-                                    </select> </h6> 
+                                <h6> <h6> <input type="text" name="Ras"> </h6> <h5>Kleur*</h5> <h6> <select name="Kleur"> 
+                                            <option value="wit">Wit</option>                                             
+                                            <option value="bruin">Bruin</option>                                             
+                                            <option value="zwart">Zwart</option>                                             
+                                            <option value="creme">Creme</option>                                             
+                                            <option value="grijs">Grijs</option>                                             
+                                            <option value="geel">Geel</option>                                             
+                                            <option value="oranje">Oranje</option>                                             
+                                            <option value="roze">Roze</option>                                             
+                                            <option value="groen">Groen</option>                                             
+                                            <option value="rood">Rood</option>                                             
+                                            <option value="blauw">Blauw</option>                                             
+                                            <option value="overig">Overig</option>                                             
+                                        </select> </h6> <h5>Geslacht </h5> <h6> <select name="Geslacht"> 
+                                            <option value="mannelijk">Mannelijk</option>                                             
+                                            <option value="vrouwelijk">Vrouwelijk</option>                                             
+                                            <option value="onbekend">Onbekend</option>                                             
+                                        </select> </h6>  
                             </div>                             
                         </div>                         
                         <div id="slide-2"> 
@@ -165,11 +161,8 @@
                                         <option value="ja">Ja</option>                                         
                                         <option value="nee">Nee</option>                                         
                                     </select> </h6> 
-                                <h5>Ongedeerd*</h5> 
-                                <h6> <select name="ongedeerd"> 
-                                        <option value="ja">Ja</option>                                         
-                                        <option value="nee">Nee</option>                                         
-                                    </select> </h6> 
+                                <h5>Geschatte leeftijd</h5> 
+                                <h6> <input type="text" name="Leeftijd"> </h6> 
                                 <h5>Signalement </h5> 
                                 <h6> <input type="text" name="Signalement"> </h6> 
                             </div>                             
@@ -179,7 +172,7 @@
                                 <h5> Afbeelding toevoegen van het verloren dier* </h5> 
                                 <h5> <input type="file" class="Toevoegenfoto" name="pic" accept="image/*"> </h5> 
                                 <h5> <a href="Success1.html"> 
-                                        <button class="submit1" type="button">Gevonden dier opgeven </button>                                         
+                                        <input type="submit" value="Verloren dier opgeven" class="submit1"> 
                                     </a> </h5> 
                             </div>                             
                         </div>                         
