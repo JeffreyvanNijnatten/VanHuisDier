@@ -22,7 +22,7 @@
         <nav class="navbar fixed-bottom navbar-light bg-light lownav">
             <div class="row" style="width: 100%;">
                 <div class="navcolumn">
-                    <a href="" class="navlink">
+                    <a href="Missing2.html" class="navlink">
                         <button type="button" class="btn btn-light navbutton">
                             <img src="images/icons/PLAATSEN-ICON.png" class="icon">
                             <p class="navtext">PLAATSEN</p>
@@ -33,7 +33,7 @@
                     <a href="verloren.html" class="navlink">
                         <button type="button" class="btn btn-light navbutton">
                             <img src="images/icons/VERLOREN-ICON.png" class="icon">
-                            <p class="navtext">VERLOREN</p>
+                            <p class="navtext">VERMIST</p>
                         </button>
                     </a>
                 </div>
@@ -63,8 +63,52 @@
                 </div>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
-            <a class="navbar-brand" href="#" style="position: relative; align-content: center; margin-left: auto; margin-right: auto; padding-left: 38px;">
+        <div class="row headnavrow">
+            <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
+                <div class="col-md-4 headcolumn col-1">
+                    <a href="verloren.html">
+                        <!--<img src="images/icons/Path%2010.png"/>-->
+                    </a>                     
+                </div>
+                <div class="col-md-4 headcolumn col-9">
+                    <a class="navbar-brand" href="#" style="position: relative; align-content: center; margin-left: auto; margin-right: auto; padding-left: 23px;">
+                        <img src="images/LOGO_TEXT_WIT1.png" class="logoheader"/>
+                    </a>                     
+                </div>
+                <div class="col-md-4 headcolumn col-2">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>                     
+                </div>
+                <div class="collapse navbar-collapse filterdiv" id="navbarTogglerDemo02">
+                    <p class="filterhead">
+                        Filter Opties </p>
+                    <p style="font-family: Staatliches; color: #728884; margin-bottom: 0; font-size: 17px;">
+                       Diersoort  </p>
+                    <form name="George">
+                        <p><select name="example" size="1" onchange="go()" style="width: 100%;">
+                                <option value="">Kies een diersoort</option>
+                                <option value="">Hond (3)</option>
+                                <option value="">Kat (3)</option>
+                                <option value="">Vogels (2)</option>
+                                <option value="">(Klein) vee (1)</option>
+                                <option value="">Exotische dieren (1)</option>
+                            </select></p>
+                        <script type="text/javascript">
+
+function go(){
+location=
+document.George.example.
+options[document.George.example.selectedIndex].value
+}
+//-->
+</script>
+                    </form>
+                </div>
+            </nav>
+        </div>         
+        <!-- <nav class="navbar navbar-expand-lg header navbar-dark bg-color">
+            <a class="navbar-brand" href="" style="position: relative; align-content: center; margin-left: auto; margin-right: auto; padding-left: 38px;">
                 <img src="images/LOGO_TEXT_WIT1.png" class="logoheader"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,6 +117,10 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item active">
+                        <p class="filterhead">
+                        Filter Opties </p>
+                        <p style="font-family: Staatliches; color: #ffffff; margin-bottom: 0; font-size: 17px;">
+                       Diersoort  </p>
                         <form name="George">
                             <p><select name="example" size="1" onchange="go()" style="width: 100%;">
                                     <option value="">Kies een diersoort</option>
@@ -89,7 +137,7 @@ location=
 document.George.example.
 options[document.George.example.selectedIndex].value
 }
-//-->
+
 </script>
                         </form>
                         <!-- <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
@@ -104,22 +152,24 @@ options[document.George.example.selectedIndex].value
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search"/>
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>-->
+                </form>
             </div>
-        </nav>
+        </nav>-->
         <div class="container maincontent">
             <h3>Gevonden dieren</h3>
             <div class="container contverloren">
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/763.jpeg" class="imagelost">
-                        <h4>Poes</h4> 
+                        <a href="gevondendieren/00001.html">
+                            <img src="images/content/lostpets/Poes%20-%20Oranje.jpg" class="imagelost">
+                        </a>
+                        <h4>Kat</h4> 
                         <p class="hastagsp">14-03-2019</p>
                         <p class="hastagsp">Oranje</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Roosendaal</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/Unknown.jpeg" class="imagelost">
+                        <img src="images/content/lostpets/Golden%20retriever.jpg" class="imagelost">
                         <h4>Hond</h4> 
                         <p class="hastagsp">12-03-2019</p>
                         <p class="hastagsp">Beige</p>
@@ -128,14 +178,14 @@ options[document.George.example.selectedIndex].value
                 </div>
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/images.jpeg" class="imagelost">
+                        <img src="images/content/lostpets/Vogel%20-%20Bruin%20Beige.jpg" class="imagelost">
                         <h4>Vogel</h4> 
                         <p class="hastagsp">09-03-2019</p>
                         <p class="hastagsp">Bruin-Beige</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Prinsenbeek</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/Unknown-1.jpeg" class="imagelost">
+                        <img src="images/content/lostpets/Krokodil%20-%20donkergroen.jpg" class="imagelost">
                         <h4>Krokodil</h4> 
                         <p class="hastagsp">04-03-2018</p>
                         <p class="hastagsp">Donkergroen</p>
@@ -144,14 +194,14 @@ options[document.George.example.selectedIndex].value
                 </div>
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/KATNIEUW.jpg" class="imagelost">
-                        <h4>Poes</h4> 
+                        <img src="images/content/lostpets/Kitten.jpg" class="imagelost">
+                        <h4>Kat</h4> 
                         <p class="hastagsp">01-03-2019</p>
                         <p class="hastagsp">Oranje</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Ulvenhout</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/images%20kopie%202.jpeg" class="imagelost">
+                        <img src="images/content/lostpets/Hond%20-%20oranje.jpg" class="imagelost">
                         <h4>Hond</h4> 
                         <p class="hastagsp">28-02-2019</p>
                         <p class="hastagsp">Oranje</p>
@@ -160,14 +210,14 @@ options[document.George.example.selectedIndex].value
                 </div>
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/images%20kopie.jpeg" class="imagelost">
-                        <h4>Poes</h4> 
+                        <img src="images/content/lostpets/Poes%20-%20bruin.jpg" class="imagelost">
+                        <h4>Kat</h4> 
                         <p class="hastagsp">27-02-2019</p>
                         <p class="hastagsp">Bruin</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Prinsenbeek</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/Keesje.jpg" class="imagelost">
+                        <img src="images/content/lostpets/Geit%20-%20wit.jpg" class="imagelost">
                         <h4>Geit</h4> 
                         <p class="hastagsp">27-02-2019</p>
                         <p class="hastagsp">Wit</p>
@@ -176,14 +226,14 @@ options[document.George.example.selectedIndex].value
                 </div>
                 <div class="row lostrow">
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/images-1.jpeg" class="imagelost">
+                        <img src="images/content/lostpets/Hond%20-%20Oranje%20beige.jpeg" class="imagelost">
                         <h4>Hond</h4> 
                         <p class="hastagsp">17-02-2019</p>
                         <p class="hastagsp">Oranje-Beige</p>
                         <p class="hastagsp locationhas"><img src="images/icons/Path%20114.png" class="locationicon">Rijen</p>
                     </div>
                     <div class="col-md-4 lostcolumn">
-                        <img src="images/content/lostpets/keyb.jpg" class="imagelost">
+                        <img src="images/content/lostpets/Vogel%20-%20blauw%20bruin.jpg" class="imagelost">
                         <h4>Vogel</h4> 
                         <p class="hastagsp">16-02-2019</p>
                         <p class="hastagsp">Blauw-Bruin</p>
