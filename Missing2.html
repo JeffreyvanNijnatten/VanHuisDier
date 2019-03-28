@@ -103,13 +103,13 @@
                         <div id="slide-1"> 
                             <div class="col-10"> 
                                 <h5>Naam*</h5> 
-                                <h6> <input type="text" name="Naam"> </h6> 
+                                <h6> <input type="text" name="Naam" required> </h6> 
                                 <h5>Woonplaats*</h5> 
-                                <h6><input type="text" name="Woonplaats"> </h6> 
+                                <h6><input type="text" name="Woonplaats" required> </h6> 
                                 <h5>Verloren op datum</h5> 
                                 <h6><input type="date" name="Datum"> </h6> 
                                 <h5>Diersoort*</h5> 
-                                <h6> <select name="Diersoort"> 
+                                <h6> <select name="Diersoort" required> 
                                         <option value="hond">Hond</option>                                         
                                         <option value="kat">Kat</option>                                         
                                         <option value="sier/zangvogels">Sier/Zangvogels</option>                                         
@@ -117,44 +117,49 @@
                                         <option value="Reptiel">Reptiel</option>                                         
                                         <option value="kleinvee">(Klein) Vee</option>                                         
                                         <option value="exotischedieren">Exotische dieren</option>                                         
-                                        <option value="postduiven">Postduiven</option>                                         
+                                        <option value="postduiven">Postduiven </option>                                         
                                         <option value="eenden/ganzen">Eenden/Ganzen</option>                                         
                                         <option value="spinnen">Spinnen</option>                                         
                                         <option value="overig">Overig</option>                                         
                                     </select> </h6> 
                                 <h5>Ras</h5> 
-                                <h6> <h6> <input type="text" name="Ras"> </h6> <h5>Kleur*</h5> <h6> <select name="Kleur"> 
-                                            <option value="wit">Wit</option>                                             
-                                            <option value="bruin">Bruin</option>                                             
-                                            <option value="zwart">Zwart</option>                                             
-                                            <option value="creme">Creme</option>                                             
-                                            <option value="grijs">Grijs</option>                                             
-                                            <option value="geel">Geel</option>                                             
-                                            <option value="oranje">Oranje</option>                                             
-                                            <option value="roze">Roze</option>                                             
-                                            <option value="groen">Groen</option>                                             
-                                            <option value="rood">Rood</option>                                             
-                                            <option value="blauw">Blauw</option>                                             
-                                            <option value="overig">Overig</option>                                             
+                                <h6> <h6> <input type="text" name="Ras"> </h6> <h5>Kleur*</h5> <h6> <select name="Kleur" required> 
+                                            <option value="wit">Wit</option>            
+                                            <option value="bruin">Bruin</option>            
+                                            <option value="zwart">Zwart</option>            
+                                            <option value="creme">Creme</option>           
+                                            <option value="grijs">Grijs</option>           
+                                            <option value="geel">Geel</option>           
+                                            <option value="oranje">Oranje</option>            
+                                            <option value="roze">Roze</option>            
+                                            <option value="groen">Groen</option>           
+                                            <option value="rood">Rood</option>            
+                                            <option value="blauw">Blauw</option>          
+                                            <option value="overig">Overig</option>
+									
                                         </select> </h6> <h5>Geslacht </h5> <h6> <select name="Geslacht"> 
-                                            <option value="mannelijk">Mannelijk</option>                                             
-                                            <option value="vrouwelijk">Vrouwelijk</option>                                             
+                                            <option value="mannelijk">Mannelijk</option>                         
+                                            <option value="vrouwelijk">Vrouwelijk</option>                      
                                             <option value="onbekend">Onbekend</option>                                             
-                                        </select> </h6>  
+                                        </select> </h6> 
+									
+									<div class="Swipe"> 
+									<h5> Swipe  <i class="arrow right"></i> </h5>
+									</div> 
                             </div>                             
                         </div>                         
                         <div id="slide-2"> 
                             <div class="col-10"> 
                                 <h5>Gecastreerd/Gesteriliseerd </h5> 
                                 <h6> <select name="Gecastreerd/gesteriliseerd"> 
-                                        <option value="gecastreerd">Gecastreerd</option>                                         
-                                        <option value="gesteriliseerd">Gesteriliseerd</option>                                         
+                                        <option value="gecastreerd">Gecastreerd</option>                        
+                                        <option value="gesteriliseerd">Gesteriliseerd</option>                 
                                         <option value="onbekend">Onbekend</option>                                         
                                     </select> </h6> 
                                 <h5>Gechipt/Niet gechipt</h5> 
                                 <h6> <select name="Gechipt/Niet gechipt"> 
-                                        <option value="gechipt">Gechipt</option>                                         
-                                        <option value="nietgechipt">Niet Gechipt</option>                                         
+                                        <option value="gechipt">Gechipt</option>                               
+                                        <option value="nietgechipt">Niet Gechipt</option>                    
                                         <option value="onbekend">Onbekend</option>                                         
                                     </select> </h6> 
                                 <h5>Halsband </h5> 
@@ -166,19 +171,24 @@
                                 <h6> <input type="text" name="Leeftijd"> </h6> 
                                 <h5>Signalement </h5> 
                                 <h6> <input type="text" name="Signalement"> </h6> 
+								
+								<div class="Swipe"> 
+									<h5> Swipe  <i class="arrow right"></i> </h5>
+								</div> 
                             </div>                             
                         </div>                         
                         <div id="slide-3"> 
                             <div class="col-10"> 
                                 <h5> Afbeelding toevoegen van het verloren dier* </h5> 
-                                <h5> <input type="file" class="Toevoegenfoto" name="pic" accept="image/*"> </h5>
+                                <h5> <input type="file" class="Toevoegenfoto" name="pic" accept="image/*" required> </h5>
                                 <h5>Telefoonnummer*</h5> 
-                                <h6> <input type="tel" name="Telefoonnummer"> </h6>
+                                <h6> <input type="tel" name="Telefoonnummer" required> </h6>
                                 <p style="font-family: Roboto; font-size: 12px;">
                                     Met uw telefoonnummer komt u in contact met de vinder van uw dier. </p>
-                                <h5> <a href="Success1.html"> 
-                                        <button class="submit1" type="button" style="margin-top: 10%;"> Verloren dier opgeven </button>                                         
-                                    </a> </h5> 
+                                <h5> 
+									
+										<input type="submit" class="submit1" formaction="Success1.html" value="Verloren dier opgeven">
+                                 </h5> 
                             </div>                             
                         </div>                         
             </form>             
